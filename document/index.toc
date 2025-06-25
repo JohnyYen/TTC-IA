@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{1}{section.4}%
+\contentsline {chapter}{Introducción}{1}{section.4}%
+\contentsline {section}{\numberline {2}Descripción del Dataset}{1}{section.5}%
+\contentsline {section}{\numberline {3}Metodología}{1}{section.6}%
+\contentsline {section}{\numberline {4}Resultados}{1}{section.7}%
+\contentsline {section}{\numberline {5}Discusión e Interpretación}{1}{section.8}%
+\contentsline {section}{\numberline {6}Conclusiones}{2}{section.9}%
+\contentsline {chapter}{Conclusiones}{2}{section.9}%
+\contentsline {section}{\numberline {7}Recomendaciones}{2}{section.10}%
+\contentsline {chapter}{Recomendaciones}{2}{section.10}%
+\contentsline {chapter}{Referencias}{2}{section.10}%

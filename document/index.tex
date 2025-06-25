@@ -1,0 +1,43 @@
+\documentclass[12pt, a4paper]{article}
+
+\input{./package.tex}
+\input{./variables.tex}
+
+\begin{document}
+	
+	\pagenumbering{gobble}
+	\input{./sections/Portada.tex}
+	\thispagestyle{empty}
+	
+		
+	\input{./sections/abstract.tex}
+	\thispagestyle{empty}
+	
+	\newpage
+	
+%	\tableofcontents
+	
+	%\listoffigures
+	%\thispagestyle{empty}
+	
+	%\listoftables
+	%\thispagestyle{empty}
+	
+	
+	\newpage
+	\pagenumbering{arabic}
+	\setcounter{page}{1}
+	\pagestyle{fancy}
+
+	\input{./chapters/introduction.tex}
+		
+	\include{./chapters/chapter1.tex}
+	\include{./chapters/chapter2.tex}
+	\include{./chapters/chapter3.tex}
+	\include{./chapters/chapter4.tex}
+	
+	\input{./chapters/conclusion.tex}
+	\input{./chapters/recomendation.tex}
+	\input{./chapters/references.tex}
+	
+\end{document}

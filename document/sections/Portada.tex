@@ -1,0 +1,50 @@
+\begin{titlepage}
+	\centering % Centra todo el contenido de la página
+	
+	% Logo de la universidad
+	\begin{figure}[h]
+		\centering
+		\includegraphics[width=0.3\textwidth]{logoCujae} % Ajusta el tamaño del logo
+	\end{figure}
+	
+	% Nombre de la universidad
+	{\LARGE \textbf{\university}\par}
+	
+	\vspace{0.4cm} % Espacio después del nombre de la universidad
+	
+	% Facultad
+	{\Large \faculty \par}
+	
+	\vspace{1cm} % Espacio después de la facultad
+	
+	% Línea superior del título
+	\rule{\textwidth}{1pt} % Línea horizontal que abarca todo el ancho de la página
+	
+	\vspace{0.2cm} % Espacio entre la línea superior y el título
+	
+	% Título del trabajo
+	{\Huge\bfseries \getTitle\par}
+	
+	\vspace{0.2cm} % Espacio entre el título y la línea inferior
+	
+	% Línea inferior del título
+	\rule{\textwidth}{1pt} % Línea horizontal que abarca todo el ancho de la página
+	
+	\vspace{1.0cm} % Espacio después del título
+	
+	% Autor
+	{\Large\bfseries Autor: \\[0.3cm]
+		\getAuthor \\[0.2cm]
+		\href{mailto:\authorEmail}{\texttt{(\authorEmail)}}\par}
+	
+	\vspace{0.5cm} % Espacio después del autor
+	\vspace{0.5cm} % Espacio después del tutor
+	
+	% Fecha (opcional)
+	{\large \today\par} % Fecha actual
+	
+	\vfill % Rellena el espacio vertical restante
+	
+	% Asegura que el contenido quede en una sola página
+	\enlargethispage{0.5cm} % Ajusta el tamaño de la página si es necesario
+\end{titlepage}
