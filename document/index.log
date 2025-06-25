@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.4)  25 JUN 2025 14:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.4)  25 JUN 2025 14:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -903,37 +903,26 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `index.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `index.out':
-(rerunfilecheck)             Before: DFA1EFB7AAD561F317026C258CD4279C;1357
-(rerunfilecheck)             After:  931BF6BFF7FB3953FD4D6E1A3A1FE88A;1354.
+Package rerunfilecheck Info: File `index.out' has not changed.
+(rerunfilecheck)             Checksum: 931BF6BFF7FB3953FD4D6E1A3A1FE88A;1354.
 Package logreq Info: Writing requests to 'index.run.xml'.
 \openout1 = `index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21222 strings out of 474485
- 370432 string characters out of 5752177
+ 21221 strings out of 474485
+ 370421 string characters out of 5752177
  1929542 words of memory out of 5000000
  43191 multiletter control sequences out of 15000+600000
  610540 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,11n,96p,1152b,1847s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{section.10} has been referenced but does not exist,
- replaced by a fixed one
-
- <C:\Users\Johny\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt17
-28.pk><D:/Programas/Instalaciones/fonts/type1/urw/arial/ua1b8a.pfb><D:/Programa
-s/Instalaciones/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on index.pdf (9 pages, 38596 bytes).
+ <C:\Users\Johny\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
+1728.pk><D:/Programas/Instalaciones/fonts/type1/urw/arial/ua1b8a.pfb><D:/Progra
+mas/Instalaciones/fonts/type1/urw/arial/ua1r8a.pfb>
+Output written on index.pdf (9 pages, 38520 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 20 named destinations out of 1000 (max. 500000)
+ 126 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
  94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
