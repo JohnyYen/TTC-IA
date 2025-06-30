@@ -1,4 +1,4 @@
-\section*{Resultados}
+\section{Resultados}
 %\addcontentsline{toc}{chapter}{Diseño de la Solución}
 %\setcounter{chapter}{3}
 \pagenumbering{arabic}
@@ -6,3 +6,31 @@
 % (Johny)
 % Está sección es sobre los resultados obtenidos de aplicar el flujo en knime y debe contener:
 % - Una presentación clara de los resultados, ya sea mediante tablas o otros formatos
+
+La matriz de confusión obtenida tras aplicar el modelo de clasificación a las reseñas de los clientes de la cadena hotelera es la siguiente:
+
+\begin{tabular}{c|cc}
+	Real \textbackslash Pred & POS & NEG \\
+	\hline
+	POS & 117 & 19 \\
+	NEG & 16 & 48 \\
+\end{tabular}
+
+A partir de esta matriz, se han calculado las siguientes métricas clave:
+
+\begin{enumerate}
+	\item \textbf{Accuracy}: 82.5\%. El modelo acierta correctamente el 82.5\% de las reseñas totales.
+	
+	\item \textbf{Precisión}: 87.97\%. De todas las reseñas predichas como positivas, el 87.97\% realmente lo son.
+	
+	\item \textbf{Recall}: 86.03\%. El modelo detecta correctamente el 86.03\% de las reseñas positivas reales.
+	
+	\item \textbf{F1-Score}: 86.98\%. Esta medida equilibrada entre precisión y recall refleja un buen rendimiento global del modelo.
+	
+	\item \textbf{Especificidad}: 75\%. Detecta correctamente el 75\% de las reseñas negativas reales.
+\end{enumerate}
+
+Estos resultados indican que el modelo tiene un desempeño sólido en la identificación de reseñas positivas, lo cual es crucial para una cadena hotelera que busca medir la satisfacción del cliente. La alta sensibilidad y el F1-score sugieren que el modelo no está pasando por alto muchas experiencias positivas, lo cual puede ayudar a tomar decisiones estratégicas sobre marketing, mejora de servicios y fidelización de clientes.
+
+Sin embargo, la especificidad del 75\% indica que hay margen de mejora en la detección de reseñas negativas, ya que aún se están etiquetando como positivas algunas reseñas que deberían ser negativas. Esto podría llevar a una visión algo optimista de la percepción real de los huéspedes si no se corrige.
+

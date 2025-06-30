@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.4)  29 JUN 2025 22:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.2.4)  30 JUN 2025 05:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -775,31 +775,17 @@ Package hyperref Info: Link coloring ON on input line 6.
 
 \c@lstlisting=\count432
  (sections/Portada.tex
-<./src/logoCujae.pdf, id=50, 597.50786pt x 845.04686pt>
+<./src/logoCujae.pdf, id=58, 597.50786pt x 845.04686pt>
 File: ./src/logoCujae.pdf Graphic file (type pdf)
 <use ./src/logoCujae.pdf>
 Package pdftex.def Info: ./src/logoCujae.pdf  used on input line 7.
 (pdftex.def)             Requested size: 135.89174pt x 192.19043pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-8.
-
-(D:\Programas\Instalaciones\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 38.
  [1
 
 {C:/Users/Johny/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{D:/Programas/
-Instalaciones/fonts/enc/dvips/base/8r.enc} <./src/logoCujae.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[2]) (sections/abstract.tex [1]) [2] (chapters/introduction.tex)
+Instalaciones/fonts/enc/dvips/base/8r.enc} <./src/logoCujae.pdf>]) (sections/ab
+stract.tex [1]) [2]
+(chapters/introduction.tex)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -839,12 +825,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 
 ]
-<src/full_workflow.png, id=94, 1021.6569pt x 569.9694pt>
+<src/full_workflow.png, id=93, 1021.6569pt x 569.9694pt>
 File: src/full_workflow.png Graphic file (type png)
 <use src/full_workflow.png>
 Package pdftex.def Info: src/full_workflow.png  used on input line 43.
 (pdftex.def)             Requested size: 452.97565pt x 252.70935pt.
-<src/to_document.png, id=97, 310.2792pt x 205.4877pt>
+<src/to_document.png, id=96, 310.2792pt x 205.4877pt>
 File: src/to_document.png Graphic file (type png)
 <use src/to_document.png>
 Package pdftex.def Info: src/to_document.png  used on input line 56.
@@ -901,7 +887,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
 
-[5])
+[5]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 124.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 124.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 124.
+)
 LaTeX Info: Redefining \. on input line 35.
 LaTeX Info: Redefining \% on input line 35.
 
@@ -921,10 +914,10 @@ LaTeX Info: Redefining \% on input line 36.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.31203pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.31203pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [1
 
@@ -939,10 +932,10 @@ LaTeX Info: Redefining \% on input line 37.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.31203pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.31203pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [1
 
@@ -959,10 +952,10 @@ LaTeX Info: Redefining \% on input line 43.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 15.31203pt, for example:
-(fancyhdr)                \setlength{\headheight}{15.31203pt}.
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2
 
@@ -978,26 +971,25 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `index.out' has not changed.
-(rerunfilecheck)             Checksum: 031223AE9D3D940D8009E33B77EAEDCE;1855.
+(rerunfilecheck)             Checksum: E8C5C0FAB3EE1E7F4A3E0A3633014FCA;2322.
 Package logreq Info: Writing requests to 'index.run.xml'.
 \openout1 = `index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21293 strings out of 474485
- 371765 string characters out of 5752177
+ 21297 strings out of 474485
+ 371412 string characters out of 5752177
  1936542 words of memory out of 5000000
- 43236 multiletter control sequences out of 15000+600000
- 622907 words of font info for 59 fonts, out of 8000000 for 9000
+ 43232 multiletter control sequences out of 15000+600000
+ 625032 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,12n,96p,1152b,1851s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Johny\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1728.pk><D:/Programas/Instalaciones/fonts/type1/urw/arial/ua1b8a.pfb><D:/Progra
-mas/Instalaciones/fonts/type1/urw/arial/ua1r8a.pfb><D:/Programas/Instalaciones/
-fonts/type1/urw/arial/ua1ri8a.pfb>
-Output written on index.pdf (15 pages, 871937 bytes).
+<D:/Programas/Instalaciones/fonts/type1/urw/arial/ua1b8a.pfb><D:/Programas/In
+stalaciones/fonts/type1/urw/arial/ua1r8a.pfb><D:/Programas/Instalaciones/fonts/
+type1/urw/arial/ua1ri8a.pfb>
+Output written on index.pdf (14 pages, 869207 bytes).
 PDF statistics:
- 201 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 117 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 182 PDF objects out of 1000 (max. 8388607)
+ 48 named destinations out of 1000 (max. 500000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 

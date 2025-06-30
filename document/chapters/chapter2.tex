@@ -117,5 +117,15 @@ El workflow sigue un flujo lógico y secuencial:
 
 Este enfoque integrado permite abordar múltiples aspectos de la minería de texto, desde la extracción de conocimiento hasta la interpretación de emociones y relaciones.
 
+\subsection{Parámetros Utilizados en el Proceso de Minería de Texto}
+
+Durante el desarrollo del flujo de trabajo en KNIME, se configuraron diversos parámetros con el objetivo de optimizar el desempeño y la interpretabilidad de las técnicas aplicadas. A continuación, se detallan los valores seleccionados para los componentes claves de la minería.
+
+En primer lugar, en la fase de particionamiento, se utilizó un esquema de división estratificada donde el 70\% de los datos se asignó al conjunto de entrenamiento y el 30\% restante al conjunto de prueba (ver figura \ref{fig:knime_workflow}). Esta proporción es ampliamente adoptada en estudios de minería de texto y aprendizaje automático, ya que permite disponer de suficientes datos para entrenar modelos robustos, manteniendo al mismo tiempo un tamaño muestral representativo para la evaluación final del desempeño. El uso de esta partición ayuda a reducir el riesgo de sobreajuste y proporciona una estimación más realista del comportamiento del modelo en datos no vistos.
+
+Por otro lado, en la etapa de modelado de tópicos, se empleó el algoritmo Latent Dirichlet Allocation (LDA) implementado en el nodo \textit{Topic Extractor (Parallel LDA)}. Para este análisis, se definió un número fijo de tres (3) tópicos o clusters temáticos. La elección de este valor se basó en consideraciones prácticas y exploratorias: dado el volumen relativamente reducido de documentos y la naturaleza general del corpus analizado, un número bajo de tópicos facilita la interpretación semántica de los resultados sin caer en una granularidad excesiva que pudiera dificultar su comprensión. Además, trabajar con un número moderado de tópicos reduce la complejidad computacional y mejora la estabilidad del modelo durante el proceso de inferencia.
+
+Estos parámetros fueron definidos tras un análisis preliminar de los datos y pruebas piloto que permitieron identificar configuraciones que equilibran eficiencia computacional, interpretabilidad y calidad del resultado final.
+
 
 
