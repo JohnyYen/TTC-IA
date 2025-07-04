@@ -3,8 +3,13 @@
 %\setcounter{chapter}{1}
 \pagenumbering{arabic}
 
-% (Fernan)
-% En esta sección se va a describir el datasets aplicado en el problema. Debe de contener:
-% - Origen del mismo
-% - Características del dataset
-% - Tamaño del dataset
+\subsection{Origen del conjunto de datos}
+
+El conjunto de datos analizado surge de la concatenación de dos documentos obtenidos mediante la extracción de información procedente de la plataforma TripAdvisor, específicamente de reseñas asociadas a establecimientos hoteleros en Cuba. La recolección incluye registros publicados entre 2022 y 2025, abarcando un periodo que permite observar tendencias y variaciones en la percepción de los usuarios respecto a aspectos como servicios, infraestructura y atención. La naturaleza de los datos refleja una perspectiva heterogénea, ya que integra tanto valoraciones positivas como negativas, junto con respuestas formales de los hoteles a las críticas o elogios recibidos.  
+
+\subsection{Características del conjunto de datos  } 
+La estructura del dataset combina variables cualitativas y cuantitativas, presentando un formato multimodal que incluye texto libre (reseñas, respuestas institucionales), fechas codificadas en formato numérico, calificaciones en escala ordinal (1 a 5 estrellas) y metadatos relacionados con los usuarios (identificadores anónimos, imágenes adjuntas). Cada registro contiene información sobre la experiencia del huésped, con descripciones detalladas de aspectos como condiciones higiénicas, calidad del servicio, infraestructura física, gestión de quejas y características específicas de las habitaciones o zonas comunes. Además, se observa la presencia de datos incompletos o inconsistentes en algunos campos, como enlaces rotos a imágenes o respuestas genéricas de los hoteles, además de la existencia de reseñas en idiomas distintos al español, lo que implica la necesidad de un proceso de limpieza previo a su análisis.  
+
+\subsection{Tamaño y dimensionalidad del conjunto de datos  } 
+El dataset consta de 1000 filas, resultado de la unión de dos archivos con 500 registros cada uno. Cada fila representa una reseña individual, aunque en algunos casos se registran múltiples comentarios asociados a la misma estanciacon un conjunto de atributos que permiten análisis multidimensionales. Entre las columnas esenciales se destacan: Texto de la Reseña (variable textual con longitud variable, promedio de 250 palabras), Calificación Numérica (escala ordinal del 1 al 5), Fecha de Publicación (formato ISO 8601), Identificador del Autor (anónimo), Presencia de Imágenes (indicador binario) y Respuesta del Hotel (texto libre o vacío). La dimensionalidad total incluye al menos 15 atributos explícitos, aunque algunos presentan valores faltantes o inconsistencias, como enlaces rotos a imágenes o respuestas genéricas de los establecimientos. La diversidad léxica y semántica de las reseñas permite inferir patrones de satisfacción e identificar factores recurrentes de insatisfacción, útil en las tareas asociadas a la minería de textos. 
+

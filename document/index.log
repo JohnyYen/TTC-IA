@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.4)  30 JUN 2025 19:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.4.4)  4 JUL 2025 16:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -665,7 +665,8 @@ Package csquotes Info: Redefining alias 'default' -> 'spanish'.
  (index.aux
 LaTeX Info: Redefining \. on input line 12.
 LaTeX Info: Redefining \% on input line 12.
-)
+ (chapters/chapter1.aux) (chapters/chapter2.aux)
+(chapters/chapter3.aux) (chapters/chapter4.aux))
 \openout1 = `index.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -775,31 +776,17 @@ Package hyperref Info: Link coloring ON on input line 6.
 
 \c@lstlisting=\count432
  (sections/Portada.tex
-<./src/logoCujae.pdf, id=7, 597.50786pt x 845.04686pt>
+<./src/logoCujae.pdf, id=70, 597.50786pt x 845.04686pt>
 File: ./src/logoCujae.pdf Graphic file (type pdf)
 <use ./src/logoCujae.pdf>
 Package pdftex.def Info: ./src/logoCujae.pdf  used on input line 7.
 (pdftex.def)             Requested size: 135.89174pt x 192.19043pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 3
-8.
-
-(C:\Program Files\MiKTeX\tex/latex/base\t1cmtt.fd
-File: t1cmtt.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 38.
  [1
 
 {C:/Users/mirai/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Fi
-les/MiKTeX/fonts/enc/dvips/base/8r.enc} <./src/logoCujae.pdf>]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[2]) (sections/abstract.tex [1]) [2] (chapters/introduction.tex
+les/MiKTeX/fonts/enc/dvips/base/8r.enc} <./src/logoCujae.pdf>]) (sections/abstr
+act.tex [1]) [2]
+(chapters/introduction.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -818,7 +805,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 \openout2 = `./chapters/chapter1.aux'.
 
- (chapters/chapter1.tex)
+ (chapters/chapter1.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 6.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -828,25 +819,120 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [1
 
-]
+])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[2]
 \openout2 = `./chapters/chapter2.aux'.
 
- (chapters/chapter2.tex)
+ (chapters/chapter2.tex
+LaTeX Info: Redefining \. on input line 40.
+LaTeX Info: Redefining \% on input line 40.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                Make it at least 15.31203pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.31203pt}.
 (fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
 
 [1
 
 
 
 ]
+<src/full_workflow.png, id=114, 1021.6569pt x 569.9694pt>
+File: src/full_workflow.png Graphic file (type png)
+<use src/full_workflow.png>
+Package pdftex.def Info: src/full_workflow.png  used on input line 43.
+(pdftex.def)             Requested size: 452.97565pt x 252.70935pt.
+<src/to_document.png, id=117, 310.2792pt x 205.4877pt>
+File: src/to_document.png Graphic file (type png)
+<use src/to_document.png>
+Package pdftex.def Info: src/to_document.png  used on input line 56.
+(pdftex.def)             Requested size: 453.0086pt x 300.01266pt.
+LaTeX Info: Redefining \. on input line 60.
+LaTeX Info: Redefining \% on input line 60.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.31203pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.31203pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
+
+[2 <./src/full_workflow.png>]
+<./src/preprocessing.png, id=126, 655.0071pt x 463.7325pt>
+File: ./src/preprocessing.png Graphic file (type png)
+<use ./src/preprocessing.png>
+Package pdftex.def Info: ./src/preprocessing.png  used on input line 67.
+(pdftex.def)             Requested size: 452.96483pt x 320.69043pt.
+LaTeX Info: Redefining \. on input line 71.
+LaTeX Info: Redefining \% on input line 71.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.31203pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.31203pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
+
+[3 <./src/to_document.png>]
+Overfull \hbox (1.9367pt too wide) in paragraph at lines 72--73
+[]\T1/ua1/m/n/12 El flu-jo de pre-pro-ce-sa-mien-to des-cri-to an-te-rior-men-t
+e fue di-se-ña-do te-nien-do en cuen-
+ []
+
+LaTeX Info: Redefining \. on input line 88.
+LaTeX Info: Redefining \% on input line 88.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.31203pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.31203pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
+
+[4 <./src/preprocessing.png>]
+LaTeX Info: Redefining \. on input line 113.
+LaTeX Info: Redefining \% on input line 113.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.31203pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.31203pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
+
+[5]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 124.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 124.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 124.
+)
+LaTeX Info: Redefining \. on input line 35.
+LaTeX Info: Redefining \% on input line 35.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 15.31203pt, for example:
+(fancyhdr)                \setlength{\headheight}{15.31203pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-3.31203pt}.
+
+[6]
 \openout2 = `./chapters/chapter3.aux'.
 
  (chapters/chapter3.tex)
+LaTeX Info: Redefining \. on input line 36.
+LaTeX Info: Redefining \% on input line 36.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -862,6 +948,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 \openout2 = `./chapters/chapter4.aux'.
 
  (chapters/chapter4.tex)
+LaTeX Info: Redefining \. on input line 37.
+LaTeX Info: Redefining \% on input line 37.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -879,6 +968,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 LaTeX Warning: Empty bibliography on input line 2.
 
 )
+LaTeX Info: Redefining \. on input line 43.
+LaTeX Info: Redefining \% on input line 43.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -899,33 +991,26 @@ LaTeX Info: Redefining \% on input line 12.
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-Package rerunfilecheck Warning: File `index.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `index.out':
-(rerunfilecheck)             Before: 97028D68EDA18DE385CB89CA266A687F;107
-(rerunfilecheck)             After:  09613535B80D2EDA2FD02D70C2363367;429.
+Package rerunfilecheck Info: File `index.out' has not changed.
+(rerunfilecheck)             Checksum: 7D053306EDE0F21671EA715C815D23EF;3123.
 Package logreq Info: Writing requests to 'index.run.xml'.
 \openout1 = `index.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 21235 strings out of 474485
- 371376 string characters out of 5753550
+ 21336 strings out of 474485
+ 372975 string characters out of 5753550
  1937542 words of memory out of 5000000
- 43211 multiletter control sequences out of 15000+600000
- 610540 words of font info for 55 fonts, out of 8000000 for 9000
+ 43266 multiletter control sequences out of 15000+600000
+ 625032 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,11n,96p,1152b,1847s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\mirai\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
-1728.pk><C:/Users/mirai/AppData/Roaming/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb
-><C:/Users/mirai/AppData/Roaming/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb>
-Output written on index.pdf (11 pages, 44086 bytes).
+ 84i,12n,96p,1152b,1851s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/mirai/AppData/Roaming/MiKTeX/fonts/type1/urw/arial/ua1b8a.pfb><C:/U
+sers/mirai/AppData/Roaming/MiKTeX/fonts/type1/urw/arial/ua1r8a.pfb><C:/Users/mi
+rai/AppData/Roaming/MiKTeX/fonts/type1/urw/arial/ua1ri8a.pfb>
+Output written on index.pdf (16 pages, 878445 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 14 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 203 PDF objects out of 1000 (max. 8388607)
+ 53 named destinations out of 1000 (max. 500000)
+ 157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
